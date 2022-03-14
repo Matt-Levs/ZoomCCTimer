@@ -14,6 +14,7 @@ Current Features:
 Bugs: 
 - Timer doesnt run without a valid API key
   - Fails when reaching 30 sec due to fiald POST function
+- Double Timer issue based on Start, Stop, Reset sequence
   
 Future Features:
 - Adjustable POST interval (Every 30sec, 1 min, 5 min, 10 min)
