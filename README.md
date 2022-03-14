@@ -11,9 +11,10 @@ Current Features:
 - APIKey testing button to check if the correct URL has been pasted in the entry field
 - Time is posted as a Closed Caption every 30 seconds (Hard coded)
 
-Bugs:
+Bugs: 
 - Timer doesnt run without a valid API key
   - Fails when reaching 30 sec due to fiald POST function
+- Start Button doesn't work after Stop is used
   
 Future Features:
 - Adjustable POST interval (Every 30sec, 1 min, 5 min, 10 min)
