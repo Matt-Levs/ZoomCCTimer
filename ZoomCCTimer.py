@@ -70,7 +70,7 @@ def clock_run():
                 sendBool = False
             else:
                 sendBool = False
-        canvas1.after(1000, clock_run)
+    canvas1.after(1000, clock_run)
 
 def  Start():
     global stop_flag, apiKeyValue, newClock
