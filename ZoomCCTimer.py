@@ -52,9 +52,7 @@ def clock_run():
     global m, s, sendBool, seqVal, apiKeyValue
     if not stop_flag:
         s+=1
-        if s ==30:
-            sendBool = True
-        elif s == 60:
+        if s == 60:
             m+=1; s=0
             sendBool = True
 
@@ -85,12 +83,11 @@ def Stop():
     stop_flag=True 
 
 
-def reset1(event=None):
+def reset1():
     global s, m, stop_flag, newClock
     s=0; m=0
     clock_lbl['text']=reset_txt
     stop_flag=True
-    newClock = True
 
 
 apiLabel = tk.Label(root, text= 'API Key')

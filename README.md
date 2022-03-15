@@ -9,12 +9,11 @@ The purpose of this was to create a minimalist timer for any Zoom user without t
 Current Features:
 - Stopwatch (Count Up) Timer with 'Stop' and 'Reset' functions for local timing
 - APIKey testing button to check if the correct URL has been pasted in the entry field
-- Time is posted as a Closed Caption every 30 seconds (Hard coded)
+- Time is posted as a Closed Caption every 60 seconds (Hard coded)
 
 Bugs: 
 - Timer doesnt run without a valid API key
   - Fails when reaching 30 sec due to fiald POST function
-- Double Timer issue based on Start, Stop, Reset sequence
   
 Future Features:
 - Adjustable POST interval (Every 30sec, 1 min, 5 min, 10 min)
